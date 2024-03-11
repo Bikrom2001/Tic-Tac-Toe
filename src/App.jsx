@@ -1,9 +1,43 @@
-function App() {
+function Square() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </div>
+    <>
+      <div>
+        <button className="bg-white border border-gray-400 h-12 w-12 m-1 leading-9 text-lg">
+          X
+        </button>
+        <button className="bg-white border border-gray-400 h-12 w-12 m-1 leading-9 text-lg">
+          X
+        </button>
+        <button className="bg-white border border-gray-400 h-12 w-12 m-1 leading-9 text-lg">
+          X
+        </button>
+      </div>
+
+      <div>
+        <button className="bg-white border border-gray-400 h-12 w-12 m-1 leading-9 text-lg">
+          X
+        </button>
+        <button className="bg-white border border-gray-400 h-12 w-12 m-1 leading-9 text-lg">
+          X
+        </button>
+        <button className="bg-white border border-gray-400 h-12 w-12 m-1 leading-9 text-lg">
+          X
+        </button>
+      </div>
+
+      <div>
+        <button className="bg-white border border-gray-400 h-12 w-12 m-1 leading-9 text-lg">
+          X
+        </button>
+        <button className="bg-white border border-gray-400 h-12 w-12 m-1 leading-9 text-lg">
+          X
+        </button>
+        <button className="bg-white border border-gray-400 h-12 w-12 m-1 leading-9 text-lg">
+          X
+        </button>
+      </div>
+    </>
   );
 }
 
-export default App;
+export default Square;
