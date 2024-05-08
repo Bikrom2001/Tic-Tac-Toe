@@ -26,7 +26,7 @@ export default function Board() {
   }
 
   function handClick(i) {
-    if (squares[i]) {
+    if (squares[i] || calculateWinner(squares)) {
       return;
     }
 
